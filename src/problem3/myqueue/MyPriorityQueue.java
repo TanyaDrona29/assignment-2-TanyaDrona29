@@ -26,5 +26,13 @@ public class MyPriorityQueue {
             return;
         }
     }
+    public void sort(Node node) {
+        if (rear == null && front == null) {
+            return;
+        }
+        int data = node.getData();
+        sort(node);
+        enquue(data);
+    }
 }
 
