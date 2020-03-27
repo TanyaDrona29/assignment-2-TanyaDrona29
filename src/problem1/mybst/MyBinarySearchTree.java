@@ -14,5 +14,11 @@ public class MyBinarySearchTree {
     public TreeNode getRoot(){
         return root;
     }
-
+    public void printInOrder(TreeNode node){
+        if(node == null){
+            return;
+        }
+        printInOrder(node.getLeftNode());
+        System.out.println(node.getData());
+    }
 }
