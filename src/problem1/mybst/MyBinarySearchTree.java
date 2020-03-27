@@ -22,4 +22,13 @@ public class MyBinarySearchTree {
         printInOrder(node.getLeftNode());
         System.out.println(node.getData());
     }
+    public void printInorder(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        printInOrder(node.getLeftNode());
+        System.out.println("The  node" + node.getData());
+        printInOrder(node.getRightNode());
+    }
+
 }
