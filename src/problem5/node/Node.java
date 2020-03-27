@@ -7,4 +7,12 @@
 package problem5.node;
 // to define node properties
 public class Node {
+    public Node next = null;
+    int data = 0;
+
+    public Node(Node next, int data) {
+        this.next = next;
+        this.data = data;
+    }
+
 }
