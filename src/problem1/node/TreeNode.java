@@ -16,4 +16,12 @@ public class TreeNode{
         leftNode = null;
         rightNode = null;
     }
+
+    public TreeNode getLeftNode() {
+        return leftNode;
+    }
+
+    public int getData() {
+        return data;
+    }
 }
