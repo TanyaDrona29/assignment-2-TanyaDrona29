@@ -14,6 +14,7 @@ public class MyBinarySearchTree {
     public TreeNode getRoot(){
         return root;
     }
+    //inorder travesal
     public void printInOrder(TreeNode node){
         if(node == null){
             return;
