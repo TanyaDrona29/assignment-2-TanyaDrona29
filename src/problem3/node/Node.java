@@ -7,4 +7,11 @@
 package problem3.node;
 
 public class Node {
+    Node node;
+    int data;
+    public Node(int data){
+        this.data = data;
+        node = null;
+    }
+
 }
