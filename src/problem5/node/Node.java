@@ -18,4 +18,11 @@ public class Node {
         this.data = data;
         this.next = null;
     }
+    public Node getNext() {
+        return next;
+    }
+
+    public int getData() {
+        return data;
+    }
 }
