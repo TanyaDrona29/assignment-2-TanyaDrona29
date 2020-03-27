@@ -30,5 +30,8 @@ public class MyBinarySearchTree {
         System.out.println("The  node" + node.getData());
         printInOrder(node.getRightNode());
     }
+    void printInorder() {
+        printInOrder(root);
+    }
 
 }
