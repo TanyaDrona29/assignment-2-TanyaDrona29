@@ -13,5 +13,10 @@ public class Node {
         this.data = data;
         node = null;
     }
-
+    public Node getNode(){
+        return node;
+    }
+    public int getData(){
+        return data;
+    }
 }
