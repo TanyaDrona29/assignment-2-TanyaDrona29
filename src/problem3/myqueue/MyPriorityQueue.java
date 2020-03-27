@@ -5,6 +5,22 @@
  *  Time: 7:15 PM
  */
 package problem3.myqueue;
+import problem3.node.Node;
 
 public class MyPriorityQueue {
+    Node front = null;
+    Node rear = null;
+
+    public void enquue(int data) {
+        Node queue = new Node(data);
+        if (this.rear == null) {
+            this.rear = queue;
+            this.front = queue;
+            return;
+        }
+        this.rear.node = queue;
+        this.rear = queue;
+
+    }
 }
+
