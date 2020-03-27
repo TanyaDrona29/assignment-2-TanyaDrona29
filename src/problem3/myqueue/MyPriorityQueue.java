@@ -20,7 +20,11 @@ public class MyPriorityQueue {
         }
         this.rear.node = queue;
         this.rear = queue;
-
+    }
+    public void isEmpty() {
+        if (rear == null && front == null) {
+            return;
+        }
     }
 }
 
