@@ -34,5 +34,12 @@ public class MyPriorityQueue {
         sort(node);
         enquue(data);
     }
+    public Node getFront() {
+        return front;
+    }
+
+    public Node getRear() {
+        return rear;
+    }
 }
 
